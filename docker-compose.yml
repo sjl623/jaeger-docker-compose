@@ -52,7 +52,7 @@ services:
       # username: admin password: admin
       # genereate your username/password in https://www.web2generators.com/apache-tools/htpasswd-generator
       # DON'T forget to escape any $ with $$
-      - HTPASSWD=admin:$$apr1$$qgwfdr15$$MIJeLZ.FKRXKUgatm6SF/1
+      - HTPASSWD=admin:$$apr1$$2v6to0h8$$lyJ/5eX57mbdNlnAE9Oi/0
       - FORWARD_PORT=16686
       - FORWARD_HOST=jaeger
     depends_on:
